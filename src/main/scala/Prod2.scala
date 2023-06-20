@@ -2,7 +2,7 @@ import org.apache.spark.sql.streaming.Trigger
 import org.apache.spark.sql.{SparkSession, functions}
 import org.apache.spark.sql.types._
 
-object Prod {
+object Prod2 {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder()
       .appName("CSVToKafkaJob")
